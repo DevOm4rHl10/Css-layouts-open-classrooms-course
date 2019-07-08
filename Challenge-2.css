@@ -1,0 +1,119 @@
+#a1 {
+grid-area: p1;
+}
+#a2	{
+grid-area: p2;
+}	
+#a3	{
+grid-area: p3;
+}
+#a4	{
+grid-area: p4;
+}	
+#a5	{
+grid-area: p5;
+}	
+#a6	{
+grid-area: p6;
+}
+#a7	{
+grid-area: p7;
+}	
+#a8	{
+grid-area: p8;
+}	
+#a9	{
+grid-area: p9;
+}	
+#a10 {
+grid-area: p10;
+}		
+#a11 {
+grid-area: p11;
+}		
+#a12 {
+grid-area: p12;
+}	
+#a13 {
+grid-area: p13;
+}	
+#a14 {
+grid-area: p14;
+}		
+#a15 {
+grid-area: p15;
+}		
+#a16 {
+grid-area: p16;
+}		
+#a17 {
+grid-area: p17;
+}		
+#a18 {
+grid-area: p18;
+}
+#a19 {
+grid-area: p19;
+}
+#a20 {
+grid-area: p20;
+}
+#a21 {
+grid-area: p21;
+}
+#a22 {
+grid-area: p22;
+}
+#a23 {
+grid-area: p23;
+}
+#a24 {
+grid-area: p24;
+}
+#a25 {
+grid-area: p25;
+}
+#a26 {
+grid-area: p26;
+}
+#a27 {
+grid-area: p27;
+}
+#a28 {
+grid-area: p28;
+}
+#a29{
+grid-area: p29;
+}
+#a30{
+grid-area: p30;
+}
+
+.container {
+	display:grid;
+	grid-template-columns: repeat(6, 25px);
+	grid-template-rows: repeat(6, 25px);
+	grid-template-areas :
+			"p1  p2  p3  p4  p5  p6"
+			"p7  p8  p9  p10 p11 p12"
+			"p13 p14 p15 p16 p17 p18"
+			"p19 p20 p21 p22 p23 p23"
+			"p24 p25 p26 p27 p23 p23"
+			"p28 p29 p30  .  .  ."
+	;
+	grid-gap: 5px;
+	margin-left: 50%;
+	grid-auto-rows: 1rem;
+
+}
+
+.container div {
+	border: 1px solid black;
+	padding: 5px;
+}
+body {
+	background-color: rgb(240, 245, 249);
+}
+h1 {
+	margin-left: 50%;
+}
